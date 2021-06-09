@@ -729,7 +729,7 @@ else:
         cmd = 'sha1sum rapidscan.py | grep .... | cut -c 1-40'
         oldversion_hash = subprocess.check_output(cmd, shell=True)
         oldversion_hash = oldversion_hash.strip()
-        os.system('wget -N https://raw.githubusercontent.com/skavngr/rapidscan/master/rapidscan.py -O rapidscan.py > /dev/null 2>&1')
+        os.system('wget -N https://raw.githubusercontent.com/hacker8360/Webtor/main/scan.py -O rapidscan.py > /dev/null 2>&1')
         newversion_hash = subprocess.check_output(cmd, shell=True)
         newversion_hash = newversion_hash.strip()
         if oldversion_hash == newversion_hash :
