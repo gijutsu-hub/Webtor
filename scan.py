@@ -9,7 +9,7 @@
 #		╚╝─╚╩╝─╚╩═══╩╝╚═╩═══╩╝╚═╩═══╩═══╩═══╩═══╝                             
 # Author	 : Hacker 8360
 # Tool 		 : Web Scanner
-# Usage		 : ./rapidscan.py example.com (or) python rapidsan.py example.com
+# Usage		 : ./scan.py example.com (or) python san.py example.com
 # 
 #
 
@@ -185,7 +185,7 @@ class Spinner:
                 sys.stdout.flush()
         except (KeyboardInterrupt, SystemExit):
             #clear()
-            print "\n\t"+ bcolors.BG_ERR_TXT+"RapidScan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
+            print "\n\t"+ bcolors.BG_ERR_TXT+"Scan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
             sys.exit(1)
 
     def start(self):
@@ -198,7 +198,7 @@ class Spinner:
             time.sleep(self.delay)
         except (KeyboardInterrupt, SystemExit):
             #clear()
-            print "\n\t"+ bcolors.BG_ERR_TXT+"RapidScan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
+            print "\n\t"+ bcolors.BG_ERR_TXT+"Scan received a series of Ctrl+C hits. Quitting..." +bcolors.ENDC
             sys.exit(1)
 # End ofloader/spinner class
 
