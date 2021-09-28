@@ -115,7 +115,7 @@ def vul_remed_info(v1,v2,v3):
 	print "\t"+bcolors.OKGREEN+str(tools_fix[v3-1][2])+bcolors.ENDC
 
 
-# RapidScan Help Context
+# webtorHelp Context
 def helper():
         print bcolors.OKBLUE+"Information:"+bcolors.ENDC
         print "------------"
@@ -125,7 +125,7 @@ def helper():
         print bcolors.OKBLUE+"Interactive:"+bcolors.ENDC
         print "------------"
         print "\tCtrl+C: Skips current test."
-        print "\tCtrl+Z: Quits RapidScan."
+        print "\tCtrl+Z: Quits Scan."
         print bcolors.OKBLUE+"Legends:"+bcolors.ENDC
         print "--------"
         print "\t["+proc_high+"]: Scan process may take longer times (not predictable)."
@@ -145,7 +145,7 @@ def clear():
         sys.stdout.write("\033[F")
         sys.stdout.write("\033[K")
 
-# RapidScan Logo
+# webtor Logo
 def logo():
 	print bcolors.WARNING
         print("""
